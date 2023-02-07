@@ -45,12 +45,43 @@
         <h1>RESERVEZ VOTRE EMPLACEMENT</h1>
             <form>
                 <fieldset>
-                    <label></label>
-                    <label></label>
-                    <label></label>
-                    <label></label>
-                    <input>
-                    <botton></botton>
+                    <legend>Votre Reservation</legend>
+                    <div>
+                        <label for="nom">Nom</label>
+                        <input type="text" name="nom" id="nom">
+                    </div>
+                    <div>
+                        <label for="Prénom">Prénom</label>
+                        <input type="text" name="prénom" id="prénom">
+                    </div>
+
+                    <div>
+                        <label for="téléphone">Téléphone</label>
+                        <input type="tel" name="téléphone" id="téléphone">
+                    </div>
+
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email">
+                    </div>
+
+                    <div>
+                        <label for="métrage">Métrage</label>
+                        <select name="métrage" id="métrage">
+                            <option value="1m">1m</option>
+                            <option value="2m">2m</option>
+                            <option value="3m">3m</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="CGU" id="CGU">
+                        <label for="CGU">J'accepte les <a href="https://www.francenum.gouv.fr/guides-et-conseils/developpement-commercial/site-web/rediger-des-conditions-generales-dutilisation" target="_blank">CGU</a></label>
+                    </div>
+
+                    <div>
+                    <input type="button" value="Envoyer">
+                    </div>
                 </fieldset>
             </form>
     </Div>
