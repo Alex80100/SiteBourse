@@ -1,16 +1,61 @@
+/* COLOR */
 .white{
     color: white;
 }
-.headertop{
-    width: fit-content;
-
-}
-
 .bYellow{
     background-color: #DECB08;
 }
 .bGrey{
     background-color: #434343;
+}
+/* Fin COLOR */
+
+/* NAVBAR */
+.ulNav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.liNav a{
+    display: block;
+    text-align: center;
+    padding: 44px 46px;
+    float: left;
+    font-size: 24px;
+    text-decoration: none;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+li a:hover {
+    background-color: #434343;
+}
+/* NAVBAR END */
+
+/* COVID */
+.covid {
+    position: fixed;
+    background-color: #3566b0 ;
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.covidMargin {
+    margin-right: 30px;
+}
+/* FIN COVID */
+
+.headertop{
+    width: fit-content;
+
 }
 .test{
     width: 100%;
@@ -18,13 +63,13 @@
     flex-direction: column;
 }
 
-.glass{
-    height: 16%;
-    width: 16%;
+.photoPrez{
+    height: 10%;
+    width: 10%;
     /* margin-right: 30px; */
 }
 
-.glassFrog{
+.photoVitrine{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -32,28 +77,33 @@
 }
 
 .tittle{
-    font-size: 42px;
+    font-size: 82px;
     margin-left: 100px;
 }
 
 .texte{
-    font-size: 25px;
+    font-size: 35px;
     margin-left: 100px;
     margin-right: 100px;
+    margin-top: 40px;
+    line-height: 40px;
 }
 
 .formu {
-    margin-left: 100px;
-    font-size: 30px;
-    margin-right: 100px;
+    text-align: center;
+    font-size: 40px;
+    
 }
 
 .botBot {
     height: 15px;
 }
 
-input {
+.whitheBox {
     border-radius: 15px;
+    height: 30px;
+    width: 350px;
+    font-size: 20px;
 }
 .marginMargin {
     margin-top: 15px;
@@ -74,30 +124,52 @@ input {
     justify-content: flex-end;
 }
 
-.covid {
-    position: fixed;
-    background-color: #3566b0 ;
-    color: white;
+.padding {
+    padding: 25px;
+}
+
+.gMap {
     display: flex;
     flex-direction: row;
-    bottom: 0;
-    height: 50px;
-    width: 100%;
-    justify-content: center;
-    font-size: 15px;
+    align-items: center;
+    padding: 10px;
 }
 
-.covidMargin {
-    margin-right: 30px;
-}
-
-.navNav {
-    display: flex;
+.square{
     list-style-type: none;
-    justify-content: right;
-    margin-right: 40px;
 }
 
-.navNav2 {
-    display: inline;
+.tittle2{
+    font-size: 62px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+select {
+    font-size: 20px;
+    height: 40px;
+    width: 70px;
+}
+
+.cgu {
+    height:30px ;
+    width: 30px;
+}
+.buttom{
+    height: 60px;
+    width: 160px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: #434343;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: #434343;
+}
+.reservation {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.lastTittle{
+    text-align: center;
+    font-size: 82px;
 }
