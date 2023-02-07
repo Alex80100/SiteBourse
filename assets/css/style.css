@@ -1,0 +1,103 @@
+.white{
+    color: white;
+}
+.headertop{
+    width: fit-content;
+
+}
+
+.bYellow{
+    background-color: #DECB08;
+}
+.bGrey{
+    background-color: #434343;
+}
+.test{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.glass{
+    height: 16%;
+    width: 16%;
+    /* margin-right: 30px; */
+}
+
+.glassFrog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.tittle{
+    font-size: 42px;
+    margin-left: 100px;
+}
+
+.texte{
+    font-size: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.formu {
+    margin-left: 100px;
+    font-size: 30px;
+    margin-right: 100px;
+}
+
+.botBot {
+    height: 15px;
+}
+
+input {
+    border-radius: 15px;
+}
+.marginMargin {
+    margin-top: 15px;
+}
+
+.yellow{
+    color: #DECB08;
+}
+
+.topImg {
+    height: 100px;
+    width: 100px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.covid {
+    position: fixed;
+    background-color: #3566b0 ;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.covidMargin {
+    margin-right: 30px;
+}
+
+.navNav {
+    display: flex;
+    list-style-type: none;
+    justify-content: right;
+    margin-right: 40px;
+}
+
+.navNav2 {
+    display: inline;
+}
