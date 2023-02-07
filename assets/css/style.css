@@ -173,3 +173,7 @@ select {
     text-align: center;
     font-size: 82px;
 }
+
+.page2{
+    border:2px solid #434343 ;
+}
