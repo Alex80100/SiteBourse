@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bourse High Tech 11 Fevrier 2023</title>
     <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -30,16 +33,16 @@
     
     <!-- COVID -->
         <div class="covid white">
-            <img class="covidMargin" src="assets/img/masque_covid.png" alt="Logo masque Covid">
+                <img class="covidMargin" src="assets/img/masque_covid.png" alt="Logo masque Covid">
             <p>Periode de COVID, masque recommandé et distanciation sociale sont de rigueur !</p>
         </div>  
     <!-- FIN COVID -->
 
     <!-- Début de la Div présentantion -->
         <div>
-            <div class="padding white bGrey">
+            <div class="padding yellow bGrey">
                 <h1 class="tittle" id="Présentation" >Présentation</h1>
-                <p class="texte">Ce Samedi 11 Fevrier, les élèves de La Manu organisent une magnifique Bourse Hightech afin de ravir petits et grands. Envie de vous séparer de votre Ordinateur, tablette, téléphone, imprimante, consoles, gaming gear, … ou d’en faire l’acquisition ? Alors n’hésitez pas !</p>
+                <p class="texte">Ce Samedi 11 Fevrier, les élèves de La Manu organisent une magnifique Bourse Hightech afin de ravir petits et grands. Envie de vous séparer de votre Ordinateur, tablette, téléphone, imprimante, consoles, gaming gear … ou d’en faire l’acquisition ? Alors n’hésitez pas !</p>
             <div>
                     <div class="photoVitrine">
                         <img class="photoPrez" src="assets/img/tablette-removebg-preview.png"alt="Tablette Tab A8">
@@ -61,7 +64,7 @@
             <div class="bYellow">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d809.6510862467534!2d2.300563223428323!3d49.8897534359274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e784465dcede01%3A0x39bf51816ff13bb6!2s20%20Rue%20Pierre%20l&#39;Hermite%2C%2080000%20Amiens!5e0!3m2!1sfr!2sfr!4v1675805641971!5m2!1sfr!2sfr" width="800" height="750" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div class="padding bYellow white">
+            <div class="padding bYellow gray">
                 <div>
                     <h1 class="tittle" id="Information">Information</h1>
                     <p class="texte">Samedi 11 Février 2023 à partir de 9h00.
@@ -84,7 +87,6 @@
             <div class="formu">
                 <form>
                     <fieldset>
-                        <p class="reservation">Votre Reservation</p>
                         <div>
                             <label for="nom">Nom</label><br>
                             <input class="whitheBox" type="text" name="nom" id="nom">
@@ -105,7 +107,7 @@
                             <input class="whitheBox" type="text" name="email" id="email">
                         </div>
 
-                        <div>
+                        <div class="metrage" >
                             <label for="métrage">Métrage</label>
                             <select name="métrage" id="métrage">
                                 <option value="1m">1m</option>
@@ -119,8 +121,10 @@
                             <label for="CGU">J'accepte les <a href="cgu.html" target="_blank">CGU</a></label>
                         </div>
 
-                        <div>
-                        <input  class="buttom bYellow white" type="button" value="Envoyer">
+                        <div class="divPage2" >
+                            <div class="buttom bYellow gray">
+                                <a class="aPage2" href="page2.html">Envoyer </a>
+                            </div>
                         </div>
                         
                     </fieldset>
@@ -137,7 +141,7 @@
     </div>
     <!-- FIN FLYERS -->
     <!-- Début du footer  -->
-    <footer class="white bGrey" >
+    <footer class="padFoot gray bYellow" >
         <!-- Partie contact -->
         <p>Contact:</p>
         <p>Amiens Métropole
@@ -151,10 +155,8 @@
         <!-- Fin partie contact -->
     </div>
         <!-- Code copyright -->
-        <p>&#xA9;</p>
-
         <!-- Partie mentions légales -->
-        <p>Mentions légales:</p>
+        <p>Mentions légales: <a href="mentionsLegals.html"> CGV</a>  </p>
     </footer>
 <!-- Fin du footer -->
 </div>
